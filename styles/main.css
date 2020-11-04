@@ -1,0 +1,77 @@
+body {
+	font-family: 'Poppers', sans-serif;
+}
+
+/*
+	navigation section
+*/
+
+.logo-d {
+	width: 100px;
+	height: 100px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+	font-size: 1.1em;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+	color: whitesmoke;
+}
+
+
+
+/*
+	Content cards
+*/
+
+.list-group-item {
+	width: 95%;
+	margin: 1% !important;
+}
+
+/*
+	footer section
+*/
+
+footer h5, .nav-link{
+	color: whitesmoke;
+}
+
+
+/*
+	Media responsive
+*/
+
+@media (min-width: 576px) {
+	.list-group-item {
+		width: 47%;
+		margin: 5px 1.5% !important;
+	}
+
+}
+
+@media (min-width: 768px) {
+	
+
+	.list-group-item {
+		width: 31.333%;
+		margin: 5px 1% !important;
+	}
+}
+
+@media (min-width: 992px) {
+	.list-group-item {
+		width: 23%;
+		margin: 5px 1% !important;
+	}
+
+}
+
+/*
+	custom sizing classes.
+*/
+
+.vh-80{
+	height: 80vh;
+}
